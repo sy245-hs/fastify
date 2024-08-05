@@ -8,6 +8,7 @@
     - [FSTWRN001](#FSTWRN001)
     - [FSTWRN002](#FSTWRN002)
   - [Fastify Deprecation Codes](#fastify-deprecation-codes)
+    - [FSTDEP013](#FSTDEP013)
 
 
 ## Warnings
@@ -58,3 +59,4 @@ Deprecation codes are further supported by the Node.js CLI options:
 
 | Code | Description | How to solve | Discussion |
 | ---- | ----------- | ------------ | ---------- |
+| <a id="FSTDEP013">FSTDEP013</a> | Direct return of "trailers" function is deprecated. | Use "callback" or "async-await" for return value. | [#4380](https://github.com/fastify/fastify/pull/4380) |
